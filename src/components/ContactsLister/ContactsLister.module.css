@@ -1,0 +1,50 @@
+.contactsLister {
+  padding: 0;
+  margin: 0 -1rem;
+  list-style-type: none;
+}
+
+.contactsLister li {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.contactsLister li img {
+  width: 100%;
+}
+
+.contactsLister li button {
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+}
+
+.contactsLister li p {
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+@media (min-width: 540px) {
+  .contactsLister {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contactsLister li {
+    width: 50%;
+  }
+}
+
+@media (min-width: 720px) {
+  .contactsLister li {
+    width: 33%;
+  }
+}
+
+@media (min-width: 960px) {
+  .contactsLister li {
+    width: 20%;
+  }
+}

@@ -1,0 +1,26 @@
+
+.imageUpdate img {
+  width: 50%;
+  border-radius: .5rem;
+}
+
+.deleteButton {
+  margin-bottom: 1rem;
+}
+
+.nameInput {
+  display: block;
+}
+
+.formContainer {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgb(247, 247, 247);
+  border-radius: .5rem;
+}
+
+@media (min-width: 540px) {
+  .deleteButton {
+    position: absolute;
+  }
+}

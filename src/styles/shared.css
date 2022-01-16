@@ -1,0 +1,63 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+button {
+  cursor: pointer;
+}
+button + button,
+input + button {
+  margin-left: .5rem;
+}
+button:disabled {
+  opacity: .5;
+  cursor: default;
+}
+
+.edit-button {
+  font-size: 1.2rem;
+  background-color: rgb(240, 240, 240);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+label {
+  font-weight: 600;
+  font-size: .75rem;
+}
+
+input {
+  border-radius: 0.5rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid #b5b5b5;
+  margin-top: .5rem;
+}
+
+.btn {
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #03a4e1;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #c7c7c7;
+  color: rgb(0, 0, 0);
+}
+
+.btn-danger {
+  background-color: #c53c13;
+  color: rgb(255, 255, 255);
+}
+

@@ -1,0 +1,11 @@
+
+.ContactCard .details {
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 1px 1px 7px #00000010;
+  border: 1px solid #f7f7f7;
+  transition: box-shadow 0.2s;
+}
+.ContactCard .details:hover {
+  box-shadow: 1px 1px 3rem #0000001f;
+}
